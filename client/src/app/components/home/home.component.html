@@ -1,0 +1,53 @@
+
+
+<main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron text-center m-4">
+        <div class="container ">
+
+          <h1 >MEAN Stack Application</h1>
+          
+          <h5 class=" font-weight-light">Welcome To Here MEAN Stack Application Dev By <b>Parvindra Chaudhary</b></h5>
+          <p ><a *ngIf="!authService.logedIn()" class="btn btn-success btn-md mr-1" routerLink="/register" role="button">Register &raquo;</a>
+          <a *ngIf="!authService.logedIn()" class="btn btn-primary btn-md " routerLink="/login" role="button">Login  &raquo;</a>
+          <a *ngIf="authService.logedIn()" class="btn btn-warning btn-md " routerLink="/blog" role="button">View Blog  &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+      
+      <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://cdn.thenewstack.io/media/2016/04/nodejs.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">NodeJs</h5>
+      <p class="card-text">Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p>
+      <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://www.moveoapps.com/blog/wp-content/uploads/2018/03/Angular-6.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Angular-6</h5>
+      <p class="card-text"> Angular 6 is a TypeScript-based platform that uses a components-based approach to web development.</p>
+      <p class="card-text"><small class="text-muted">Last updated 4 hrs ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://cdn-images-1.medium.com/max/1200/1*Mx3MUKkPENbaIR-vKGeLDw.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">MobgoDb</h5>
+      <p class="card-text">A record in MongoDB is a document, which is a data structure composed of field and value pairs. MongoDB documents are similar to JSON objects.</p>
+      <p class="card-text"><small class="text-muted">Last updated 6 days ago</small></p>
+    </div>
+  </div>
+
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>

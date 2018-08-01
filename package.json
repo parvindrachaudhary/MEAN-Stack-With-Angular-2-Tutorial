@@ -24,7 +24,14 @@
   },
   "homepage": "https://github.com/parvindrachaudhary/MEAN-Stack-With-Angular-2-Tutorial#readme",
   "dependencies": {
+    "angular2-flash-messages": "^2.0.5",
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.2.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
   }
 }

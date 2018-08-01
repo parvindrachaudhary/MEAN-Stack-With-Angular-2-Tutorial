@@ -2,7 +2,7 @@
          
       module.exports = { 
 
-               uri: 'mongodb://localhost:27017/' + this.db,
+               uri: 'mongodb://localhost:27017/mean-angular-2',
                secret: crypto,
                db: 'mean-angular-2'
 
